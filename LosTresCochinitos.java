@@ -2,6 +2,7 @@ public class LosTresCochinitos  extends Thread{
     @Override
     public void run(){
     System.out.println("Mi PID es :" + this.getId());
+    //getId() obtiene el PID del hilo del objeto
 }
 public static void main(String[] args) {
         LosTresCochinitos cochinito1 = new LosTresCochinitos();
